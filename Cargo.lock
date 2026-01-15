@@ -3,6 +3,13 @@
 version = 4
 
 [[package]]
+name = "DaddyBird"
+version = "0.1.0"
+dependencies = [
+ "bracket-lib",
+]
+
+[[package]]
 name = "adler2"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -590,13 +597,6 @@ name = "find-msvc-tools"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f449e6c6c08c865631d4890cfacf252b3d396c9bcc83adb6623cdb02a8336c41"
-
-[[package]]
-name = "flappy"
-version = "0.1.0"
-dependencies = [
- "bracket-lib",
-]
 
 [[package]]
 name = "flate2"
